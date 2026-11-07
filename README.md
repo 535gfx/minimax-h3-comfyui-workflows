@@ -1,6 +1,6 @@
 # ComfyUI workflows from my videos
 
-<img src="images/workflows.jpg" alt="ComfyUI, MiniMax H3, 28 free workflows" width="100%">
+<a href="https://youtu.be/JZ4Z2Cf49Ao"><img src="images/workflows.jpg" alt="ComfyUI, MiniMax H3, 28 free workflows" width="100%"></a>
 
 Free. Download a file and drop it into ComfyUI.
 
