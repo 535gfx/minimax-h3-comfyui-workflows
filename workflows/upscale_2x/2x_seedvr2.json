@@ -1,0 +1,969 @@
+{
+ "last_node_id": 9,
+ "last_link_id": 7,
+ "nodes": [
+  {
+   "id": 2,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    0
+   ],
+   "size": [
+    340,
+    82
+   ],
+   "flags": {},
+   "order": 0,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      1
+     ]
+    }
+   ],
+   "title": "Your render",
+   "properties": {
+    "Node name for S&R": "LoadVideo"
+   },
+   "widgets_values": [
+    "your_render.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "your_render.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 3,
+   "type": "GetVideoComponents",
+   "pos": [
+    0,
+    152
+   ],
+   "size": [
+    340,
+    106
+   ],
+   "flags": {},
+   "order": 4,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 1
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      2
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": [
+      6
+     ]
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Frames + sound",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 4,
+   "type": "SeedVR2LoadVAEModel",
+   "pos": [
+    490,
+    0
+   ],
+   "size": [
+    340,
+    298
+   ],
+   "flags": {},
+   "order": 1,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "torch_compile_args",
+     "name": "torch_compile_args",
+     "shape": 7,
+     "type": "TORCH_COMPILE_ARGS",
+     "link": null
+    },
+    {
+     "localized_name": "model",
+     "name": "model",
+     "type": "COMBO",
+     "widget": {
+      "name": "model"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "device",
+     "name": "device",
+     "type": "COMBO",
+     "widget": {
+      "name": "device"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "encode_tiled",
+     "name": "encode_tiled",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "encode_tiled"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "encode_tile_size",
+     "name": "encode_tile_size",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "encode_tile_size"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "encode_tile_overlap",
+     "name": "encode_tile_overlap",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "encode_tile_overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "decode_tiled",
+     "name": "decode_tiled",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "decode_tiled"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "decode_tile_size",
+     "name": "decode_tile_size",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "decode_tile_size"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "decode_tile_overlap",
+     "name": "decode_tile_overlap",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "decode_tile_overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "tile_debug",
+     "name": "tile_debug",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "tile_debug"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "offload_device",
+     "name": "offload_device",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "offload_device"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "cache_model",
+     "name": "cache_model",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "cache_model"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "SEEDVR2_VAE",
+     "name": "SEEDVR2_VAE",
+     "type": "SEEDVR2_VAE",
+     "links": [
+      4
+     ]
+    }
+   ],
+   "title": "SeedVR2 VAE",
+   "properties": {
+    "Node name for S&R": "SeedVR2LoadVAEModel",
+    "models": [
+     {
+      "name": "ema_vae_fp16.safetensors",
+      "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/ema_vae_fp16.safetensors",
+      "directory": "SEEDVR2"
+     }
+    ]
+   },
+   "widgets_values": [
+    "ema_vae_fp16.safetensors",
+    "cuda:0",
+    true,
+    1024,
+    128,
+    true,
+    1024,
+    128,
+    "false",
+    "cpu",
+    false
+   ],
+   "widgets_values_named": {
+    "model": "ema_vae_fp16.safetensors",
+    "device": "cuda:0",
+    "encode_tiled": true,
+    "encode_tile_size": 1024,
+    "encode_tile_overlap": 128,
+    "decode_tiled": true,
+    "decode_tile_size": 1024,
+    "decode_tile_overlap": 128,
+    "tile_debug": "false",
+    "offload_device": "cpu",
+    "cache_model": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 5,
+   "type": "SeedVR2LoadDiTModel",
+   "pos": [
+    490,
+    368
+   ],
+   "size": [
+    340,
+    202
+   ],
+   "flags": {},
+   "order": 2,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "torch_compile_args",
+     "name": "torch_compile_args",
+     "shape": 7,
+     "type": "TORCH_COMPILE_ARGS",
+     "link": null
+    },
+    {
+     "localized_name": "model",
+     "name": "model",
+     "type": "COMBO",
+     "widget": {
+      "name": "model"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "device",
+     "name": "device",
+     "type": "COMBO",
+     "widget": {
+      "name": "device"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "blocks_to_swap",
+     "name": "blocks_to_swap",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "blocks_to_swap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "swap_io_components",
+     "name": "swap_io_components",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "swap_io_components"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "offload_device",
+     "name": "offload_device",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "offload_device"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "cache_model",
+     "name": "cache_model",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "cache_model"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "attention_mode",
+     "name": "attention_mode",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "attention_mode"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "SEEDVR2_DIT",
+     "name": "SEEDVR2_DIT",
+     "type": "SEEDVR2_DIT",
+     "links": [
+      3
+     ]
+    }
+   ],
+   "title": "SeedVR2 3B",
+   "properties": {
+    "Node name for S&R": "SeedVR2LoadDiTModel",
+    "models": [
+     {
+      "name": "seedvr2_ema_3b_fp16.safetensors",
+      "url": "https://huggingface.co/numz/SeedVR2_comfyUI/resolve/main/seedvr2_ema_3b_fp16.safetensors",
+      "directory": "SEEDVR2"
+     }
+    ]
+   },
+   "widgets_values": [
+    "seedvr2_ema_3b_fp16.safetensors",
+    "cuda:0",
+    32,
+    false,
+    "cpu",
+    false,
+    "sageattn_2"
+   ],
+   "widgets_values_named": {
+    "model": "seedvr2_ema_3b_fp16.safetensors",
+    "device": "cuda:0",
+    "blocks_to_swap": 32,
+    "swap_io_components": false,
+    "offload_device": "cpu",
+    "cache_model": false,
+    "attention_mode": "sageattn_2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 6,
+   "type": "SeedVR2VideoUpscaler",
+   "pos": [
+    890,
+    0
+   ],
+   "size": [
+    340,
+    386
+   ],
+   "flags": {},
+   "order": 5,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "image",
+     "name": "image",
+     "type": "IMAGE",
+     "link": 2
+    },
+    {
+     "localized_name": "dit",
+     "name": "dit",
+     "type": "SEEDVR2_DIT",
+     "link": 3
+    },
+    {
+     "localized_name": "vae",
+     "name": "vae",
+     "type": "SEEDVR2_VAE",
+     "link": 4
+    },
+    {
+     "localized_name": "seed",
+     "name": "seed",
+     "type": "INT",
+     "widget": {
+      "name": "seed"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "resolution",
+     "name": "resolution",
+     "type": "INT",
+     "widget": {
+      "name": "resolution"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "max_resolution",
+     "name": "max_resolution",
+     "type": "INT",
+     "widget": {
+      "name": "max_resolution"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "batch_size",
+     "name": "batch_size",
+     "type": "INT",
+     "widget": {
+      "name": "batch_size"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "uniform_batch_size",
+     "name": "uniform_batch_size",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "uniform_batch_size"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "color_correction",
+     "name": "color_correction",
+     "type": "COMBO",
+     "widget": {
+      "name": "color_correction"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "temporal_overlap",
+     "name": "temporal_overlap",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "temporal_overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "prepend_frames",
+     "name": "prepend_frames",
+     "shape": 7,
+     "type": "INT",
+     "widget": {
+      "name": "prepend_frames"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "input_noise_scale",
+     "name": "input_noise_scale",
+     "shape": 7,
+     "type": "FLOAT",
+     "widget": {
+      "name": "input_noise_scale"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "latent_noise_scale",
+     "name": "latent_noise_scale",
+     "shape": 7,
+     "type": "FLOAT",
+     "widget": {
+      "name": "latent_noise_scale"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "offload_device",
+     "name": "offload_device",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "offload_device"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "enable_debug",
+     "name": "enable_debug",
+     "shape": 7,
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "enable_debug"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "IMAGE",
+     "name": "IMAGE",
+     "type": "IMAGE",
+     "links": [
+      5
+     ]
+    }
+   ],
+   "title": "SeedVR2 · 2688×1536",
+   "properties": {
+    "Node name for S&R": "SeedVR2VideoUpscaler"
+   },
+   "widgets_values": [
+    42,
+    "fixed",
+    1536,
+    0,
+    25,
+    false,
+    "wavelet",
+    3,
+    0,
+    0,
+    0,
+    "cpu",
+    false
+   ],
+   "widgets_values_named": {
+    "seed": 42,
+    "control_after_generate": "fixed",
+    "resolution": 1536,
+    "max_resolution": 0,
+    "batch_size": 25,
+    "uniform_batch_size": false,
+    "color_correction": "wavelet",
+    "temporal_overlap": 3,
+    "prepend_frames": 0,
+    "input_noise_scale": 0,
+    "latent_noise_scale": 0,
+    "offload_device": "cpu",
+    "enable_debug": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 7,
+   "type": "CreateVideo",
+   "pos": [
+    1380,
+    0
+   ],
+   "size": [
+    340,
+    150
+   ],
+   "flags": {},
+   "order": 6,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "link": 5
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "shape": 7,
+     "type": "AUDIO",
+     "link": 6
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "widget": {
+      "name": "fps"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "bit_depth"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "color_space"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      7
+     ]
+    }
+   ],
+   "title": "Video",
+   "properties": {
+    "Node name for S&R": "CreateVideo"
+   },
+   "widgets_values": [
+    24,
+    10,
+    "sRGB",
+    "none"
+   ],
+   "widgets_values_named": {
+    "fps": 24,
+    "bit_depth": 10,
+    "color_space": "sRGB",
+    "codec": "none"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 8,
+   "type": "SaveVideo",
+   "pos": [
+    1780,
+    0
+   ],
+   "size": [
+    340,
+    154
+   ],
+   "flags": {},
+   "order": 7,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 7
+    },
+    {
+     "localized_name": "filename_prefix",
+     "name": "filename_prefix",
+     "type": "STRING",
+     "widget": {
+      "name": "filename_prefix"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "format",
+     "name": "format",
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "format.codec",
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format.codec"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "encoding",
+     "name": "format.codec.encoding",
+     "shape": 7,
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format.codec.encoding"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "crf",
+     "name": "format.codec.encoding.crf",
+     "type": "FLOAT",
+     "widget": {
+      "name": "format.codec.encoding.crf"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "links": null
+    }
+   ],
+   "title": "Save",
+   "properties": {},
+   "widgets_values": [
+    "video/2x_seedvr2",
+    "mp4",
+    "h264",
+    "re-encode",
+    14,
+    "auto"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/2x_seedvr2",
+    "format": "mp4",
+    "format.codec": "h264",
+    "format.codec.encoding": "re-encode",
+    "format.codec.encoding.crf": 14,
+    "codec": "auto"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C"
+  },
+  {
+   "id": 9,
+   "type": "MarkdownNote",
+   "pos": [
+    0,
+    690
+   ],
+   "size": [
+    820,
+    300
+   ],
+   "flags": {},
+   "order": 3,
+   "mode": 0,
+   "inputs": [],
+   "outputs": [],
+   "title": "SeedVR2 3B and 7B, 2x",
+   "properties": {},
+   "widgets_values": [
+    "## SeedVR2 3B and 7B, 2x\n\n**You pick:** your render. Needs numz's ComfyUI-SeedVR2_VideoUpscaler pack.\n\nbatch_size 25, temporal_overlap 3, blocks_to_swap 32, noise 0. **For 7B, pick in the model loader:** `seedvr2_ema_7b_fp16.safetensors`. `sageattn_2` needs SageAttention installed; `sdpa` works without it.\n\n**Not checked one last time.** I deleted this model after my tests, so this workflow should run, but I did not run it again before sharing it.\n\nEvery model link and folder: `LINKS.md`."
+   ],
+   "widgets_values_named": {
+    "text": "## SeedVR2 3B and 7B, 2x\n\n**You pick:** your render. Needs numz's ComfyUI-SeedVR2_VideoUpscaler pack.\n\nbatch_size 25, temporal_overlap 3, blocks_to_swap 32, noise 0. **For 7B, pick in the model loader:** `seedvr2_ema_7b_fp16.safetensors`. `sageattn_2` needs SageAttention installed; `sdpa` works without it.\n\n**Not checked one last time.** I deleted this model after my tests, so this workflow should run, but I did not run it again before sharing it.\n\nEvery model link and folder: `LINKS.md`."
+   },
+   "color": "#432",
+   "bgcolor": "#653"
+  }
+ ],
+ "links": [
+  [
+   1,
+   2,
+   0,
+   3,
+   0,
+   "VIDEO"
+  ],
+  [
+   2,
+   3,
+   0,
+   6,
+   0,
+   "IMAGE"
+  ],
+  [
+   3,
+   5,
+   0,
+   6,
+   1,
+   "SEEDVR2_DIT"
+  ],
+  [
+   4,
+   4,
+   0,
+   6,
+   2,
+   "SEEDVR2_VAE"
+  ],
+  [
+   5,
+   6,
+   0,
+   7,
+   0,
+   "IMAGE"
+  ],
+  [
+   6,
+   3,
+   1,
+   7,
+   1,
+   "AUDIO"
+  ],
+  [
+   7,
+   7,
+   0,
+   8,
+   0,
+   "VIDEO"
+  ]
+ ],
+ "groups": [
+  {
+   "id": 1,
+   "title": "1  YOUR RENDER",
+   "bounding": [
+    -30,
+    -100,
+    400,
+    388
+   ],
+   "color": "#B8A56A",
+   "flags": {}
+  },
+  {
+   "id": 2,
+   "title": "2  SEEDVR2",
+   "bounding": [
+    460,
+    -100,
+    800,
+    700
+   ],
+   "color": "#C9A227",
+   "flags": {}
+  },
+  {
+   "id": 3,
+   "title": "3  SAVE",
+   "bounding": [
+    1350,
+    -100,
+    800,
+    284
+   ],
+   "color": "#E39A2A",
+   "flags": {}
+  }
+ ],
+ "config": {},
+ "extra": {},
+ "version": 0.4
+}

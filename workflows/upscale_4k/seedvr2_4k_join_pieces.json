@@ -1,0 +1,2755 @@
+{
+ "last_node_id": 32,
+ "last_link_id": 35,
+ "nodes": [
+  {
+   "id": 2,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    40
+   ],
+   "size": [
+    330,
+    82
+   ],
+   "flags": {},
+   "order": 0,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      2,
+      3
+     ]
+    }
+   ],
+   "title": "Piece 1",
+   "properties": {
+    "Node name for S&R": "LoadVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "seedvr2_4k_piece_1.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "seedvr2_4k_piece_1.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 3,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    370
+   ],
+   "size": [
+    330,
+    82
+   ],
+   "flags": {},
+   "order": 1,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      4,
+      10,
+      11
+     ]
+    }
+   ],
+   "title": "Piece 2",
+   "properties": {
+    "Node name for S&R": "LoadVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "seedvr2_4k_piece_2.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "seedvr2_4k_piece_2.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 4,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    700
+   ],
+   "size": [
+    330,
+    82
+   ],
+   "flags": {},
+   "order": 2,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      12,
+      18,
+      19
+     ]
+    }
+   ],
+   "title": "Piece 3",
+   "properties": {
+    "Node name for S&R": "LoadVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "seedvr2_4k_piece_3.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "seedvr2_4k_piece_3.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 5,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    1030
+   ],
+   "size": [
+    330,
+    82
+   ],
+   "flags": {},
+   "order": 3,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      20,
+      26
+     ]
+    }
+   ],
+   "title": "Piece 4",
+   "properties": {
+    "Node name for S&R": "LoadVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "seedvr2_4k_piece_4.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "seedvr2_4k_piece_4.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 6,
+   "type": "LoadVideo",
+   "pos": [
+    0,
+    1400
+   ],
+   "size": [
+    330,
+    262.57142857142856
+   ],
+   "flags": {},
+   "order": 4,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "file",
+     "name": "file",
+     "type": "COMBO",
+     "widget": {
+      "name": "file"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "choose file to upload",
+     "name": "upload",
+     "type": "IMAGEUPLOAD",
+     "widget": {
+      "name": "upload"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      1
+     ]
+    }
+   ],
+   "title": "Your render · the sound",
+   "properties": {
+    "Node name for S&R": "LoadVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "your_render.mp4",
+    "image"
+   ],
+   "widgets_values_named": {
+    "file": "your_render.mp4",
+    "upload": "image"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#B8A56A"
+  },
+  {
+   "id": 7,
+   "type": "GetVideoComponents",
+   "pos": [
+    380,
+    1400
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 16,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 1
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": [
+      34
+     ]
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "The sound",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#B8A56A"
+  },
+  {
+   "id": 8,
+   "type": "Video Slice",
+   "pos": [
+    380,
+    40
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 6,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 2
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      27
+     ]
+    }
+   ],
+   "title": "Piece 1 · frames 0-47",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0,
+    2,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0,
+    "duration": 2,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 9,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    40
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 7,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 3
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      5
+     ]
+    }
+   ],
+   "title": "Piece 1 · frames 48-56",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    2,
+    0.375,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 2,
+    "duration": 0.375,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 10,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    210
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 8,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 4
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      6
+     ]
+    }
+   ],
+   "title": "Piece 2 · frames 0-8",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0,
+    0.375,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0,
+    "duration": 0.375,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 11,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    40
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 17,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 5
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      7
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 1 · last 9",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 12,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    210
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 18,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 6
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      8
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 2 · first 9",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 13,
+   "type": "ImageBatchExtendWithOverlap",
+   "pos": [
+    1520,
+    40
+   ],
+   "size": [
+    330,
+    146
+   ],
+   "flags": {},
+   "order": 23,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "link": 7
+    },
+    {
+     "localized_name": "new_images",
+     "name": "new_images",
+     "shape": 7,
+     "type": "IMAGE",
+     "link": 8
+    },
+    {
+     "localized_name": "overlap",
+     "name": "overlap",
+     "type": "INT",
+     "widget": {
+      "name": "overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_side",
+     "name": "overlap_side",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_side"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_mode",
+     "name": "overlap_mode",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_mode"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "start_images",
+     "name": "start_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "extended_images",
+     "name": "extended_images",
+     "type": "IMAGE",
+     "links": [
+      9
+     ]
+    }
+   ],
+   "title": "Blend 1 → 2 · 9 frames",
+   "properties": {
+    "Node name for S&R": "ImageBatchExtendWithOverlap",
+    "cnr_id": "comfyui-kjnodes",
+    "ver": "d7641533d6634eb05f8570c980fce8fc8528dc7b"
+   },
+   "widgets_values": [
+    9,
+    "source",
+    "linear_blend"
+   ],
+   "widgets_values_named": {
+    "overlap": 9,
+    "overlap_side": "source",
+    "overlap_mode": "linear_blend"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 14,
+   "type": "CreateVideo",
+   "pos": [
+    1900,
+    40
+   ],
+   "size": [
+    330,
+    150
+   ],
+   "flags": {},
+   "order": 26,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "link": 9
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "shape": 7,
+     "type": "AUDIO",
+     "link": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "widget": {
+      "name": "fps"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "bit_depth"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "color_space"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      28
+     ]
+    }
+   ],
+   "title": "Blend 1 → 2 · 9 frames · video",
+   "properties": {
+    "Node name for S&R": "CreateVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    24,
+    "auto",
+    "sRGB",
+    "none"
+   ],
+   "widgets_values_named": {
+    "fps": 24,
+    "bit_depth": "auto",
+    "color_space": "sRGB",
+    "codec": "none"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 15,
+   "type": "Video Slice",
+   "pos": [
+    380,
+    370
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 9,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 10
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      29
+     ]
+    }
+   ],
+   "title": "Piece 2 · frames 9-47",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0.375,
+    1.625,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0.375,
+    "duration": 1.625,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 16,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    420
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 10,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 11
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      13
+     ]
+    }
+   ],
+   "title": "Piece 2 · frames 48-56",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    2,
+    0.375,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 2,
+    "duration": 0.375,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 17,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    590
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 11,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 12
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      14
+     ]
+    }
+   ],
+   "title": "Piece 3 · frames 0-8",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0,
+    0.375,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0,
+    "duration": 0.375,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 18,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    420
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 19,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 13
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      15
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 2 · last 9",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 19,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    590
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 20,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 14
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      16
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 3 · first 9",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 20,
+   "type": "ImageBatchExtendWithOverlap",
+   "pos": [
+    1520,
+    420
+   ],
+   "size": [
+    330,
+    146
+   ],
+   "flags": {},
+   "order": 24,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "link": 15
+    },
+    {
+     "localized_name": "new_images",
+     "name": "new_images",
+     "shape": 7,
+     "type": "IMAGE",
+     "link": 16
+    },
+    {
+     "localized_name": "overlap",
+     "name": "overlap",
+     "type": "INT",
+     "widget": {
+      "name": "overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_side",
+     "name": "overlap_side",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_side"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_mode",
+     "name": "overlap_mode",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_mode"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "start_images",
+     "name": "start_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "extended_images",
+     "name": "extended_images",
+     "type": "IMAGE",
+     "links": [
+      17
+     ]
+    }
+   ],
+   "title": "Blend 2 → 3 · 9 frames",
+   "properties": {
+    "Node name for S&R": "ImageBatchExtendWithOverlap",
+    "cnr_id": "comfyui-kjnodes",
+    "ver": "d7641533d6634eb05f8570c980fce8fc8528dc7b"
+   },
+   "widgets_values": [
+    9,
+    "source",
+    "linear_blend"
+   ],
+   "widgets_values_named": {
+    "overlap": 9,
+    "overlap_side": "source",
+    "overlap_mode": "linear_blend"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 21,
+   "type": "CreateVideo",
+   "pos": [
+    1900,
+    420
+   ],
+   "size": [
+    330,
+    150
+   ],
+   "flags": {},
+   "order": 27,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "link": 17
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "shape": 7,
+     "type": "AUDIO",
+     "link": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "widget": {
+      "name": "fps"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "bit_depth"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "color_space"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      30
+     ]
+    }
+   ],
+   "title": "Blend 2 → 3 · 9 frames · video",
+   "properties": {
+    "Node name for S&R": "CreateVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    24,
+    "auto",
+    "sRGB",
+    "none"
+   ],
+   "widgets_values_named": {
+    "fps": 24,
+    "bit_depth": "auto",
+    "color_space": "sRGB",
+    "codec": "none"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 22,
+   "type": "Video Slice",
+   "pos": [
+    380,
+    700
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 12,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 18
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      31
+     ]
+    }
+   ],
+   "title": "Piece 3 · frames 9-38",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0.375,
+    1.25,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0.375,
+    "duration": 1.25,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 23,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    800
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 13,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 19
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      21
+     ]
+    }
+   ],
+   "title": "Piece 3 · frames 39-56",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    1.625,
+    0.75,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 1.625,
+    "duration": 0.75,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 24,
+   "type": "Video Slice",
+   "pos": [
+    760,
+    970
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 14,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 20
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      22
+     ]
+    }
+   ],
+   "title": "Piece 4 · frames 0-17",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0,
+    0.75,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0,
+    "duration": 0.75,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 25,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    800
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 21,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 21
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      23
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 3 · last 18",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 26,
+   "type": "GetVideoComponents",
+   "pos": [
+    1140,
+    970
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 22,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 22
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "links": [
+      24
+     ]
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "type": "AUDIO",
+     "links": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "links": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "type": "COMBO",
+     "links": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "type": "COMBO",
+     "links": null
+    }
+   ],
+   "title": "Piece 4 · first 18",
+   "properties": {
+    "Node name for S&R": "GetVideoComponents",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 27,
+   "type": "ImageBatchExtendWithOverlap",
+   "pos": [
+    1520,
+    800
+   ],
+   "size": [
+    330,
+    146
+   ],
+   "flags": {},
+   "order": 25,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "link": 23
+    },
+    {
+     "localized_name": "new_images",
+     "name": "new_images",
+     "shape": 7,
+     "type": "IMAGE",
+     "link": 24
+    },
+    {
+     "localized_name": "overlap",
+     "name": "overlap",
+     "type": "INT",
+     "widget": {
+      "name": "overlap"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_side",
+     "name": "overlap_side",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_side"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "overlap_mode",
+     "name": "overlap_mode",
+     "type": "COMBO",
+     "widget": {
+      "name": "overlap_mode"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "source_images",
+     "name": "source_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "start_images",
+     "name": "start_images",
+     "type": "IMAGE",
+     "links": null
+    },
+    {
+     "localized_name": "extended_images",
+     "name": "extended_images",
+     "type": "IMAGE",
+     "links": [
+      25
+     ]
+    }
+   ],
+   "title": "Blend 3 → 4 · 18 frames",
+   "properties": {
+    "Node name for S&R": "ImageBatchExtendWithOverlap",
+    "cnr_id": "comfyui-kjnodes",
+    "ver": "d7641533d6634eb05f8570c980fce8fc8528dc7b"
+   },
+   "widgets_values": [
+    18,
+    "source",
+    "linear_blend"
+   ],
+   "widgets_values_named": {
+    "overlap": 18,
+    "overlap_side": "source",
+    "overlap_mode": "linear_blend"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 28,
+   "type": "CreateVideo",
+   "pos": [
+    1900,
+    800
+   ],
+   "size": [
+    330,
+    150
+   ],
+   "flags": {},
+   "order": 28,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "images",
+     "name": "images",
+     "type": "IMAGE",
+     "link": 25
+    },
+    {
+     "localized_name": "audio",
+     "name": "audio",
+     "shape": 7,
+     "type": "AUDIO",
+     "link": null
+    },
+    {
+     "localized_name": "fps",
+     "name": "fps",
+     "type": "FLOAT",
+     "widget": {
+      "name": "fps"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "bit_depth",
+     "name": "bit_depth",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "bit_depth"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "color_space",
+     "name": "color_space",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "color_space"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMBO",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      32
+     ]
+    }
+   ],
+   "title": "Blend 3 → 4 · 18 frames · video",
+   "properties": {
+    "Node name for S&R": "CreateVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    24,
+    "auto",
+    "sRGB",
+    "none"
+   ],
+   "widgets_values_named": {
+    "fps": 24,
+    "bit_depth": "auto",
+    "color_space": "sRGB",
+    "codec": "none"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#C9A227"
+  },
+  {
+   "id": 29,
+   "type": "Video Slice",
+   "pos": [
+    380,
+    1030
+   ],
+   "size": [
+    330,
+    106
+   ],
+   "flags": {},
+   "order": 15,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 26
+    },
+    {
+     "localized_name": "start_time",
+     "name": "start_time",
+     "type": "FLOAT",
+     "widget": {
+      "name": "start_time"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "duration",
+     "name": "duration",
+     "type": "FLOAT",
+     "widget": {
+      "name": "duration"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "strict_duration",
+     "name": "strict_duration",
+     "type": "BOOLEAN",
+     "widget": {
+      "name": "strict_duration"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      33
+     ]
+    }
+   ],
+   "title": "Piece 4 · frames 18-56",
+   "properties": {
+    "Node name for S&R": "Video Slice",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    0.75,
+    1.625,
+    false
+   ],
+   "widgets_values_named": {
+    "start_time": 0.75,
+    "duration": 1.625,
+    "strict_duration": false
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#E39A2A"
+  },
+  {
+   "id": 30,
+   "type": "ConcatenateVideo",
+   "pos": [
+    2280,
+    400
+   ],
+   "size": [
+    330,
+    238
+   ],
+   "flags": {},
+   "order": 29,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video0",
+     "name": "videos.video0",
+     "type": "VIDEO",
+     "link": 27
+    },
+    {
+     "localized_name": "video1",
+     "name": "videos.video1",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 28
+    },
+    {
+     "localized_name": "video2",
+     "name": "videos.video2",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 29
+    },
+    {
+     "localized_name": "video3",
+     "name": "videos.video3",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 30
+    },
+    {
+     "localized_name": "video4",
+     "name": "videos.video4",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 31
+    },
+    {
+     "localized_name": "video5",
+     "name": "videos.video5",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 32
+    },
+    {
+     "localized_name": "complete_audio",
+     "name": "complete_audio",
+     "shape": 7,
+     "type": "AUDIO",
+     "link": 34
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "type": "COMBO",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "video6",
+     "name": "videos.video6",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": 33
+    },
+    {
+     "localized_name": "video7",
+     "name": "videos.video7",
+     "shape": 7,
+     "type": "VIDEO",
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "VIDEO",
+     "name": "VIDEO",
+     "type": "VIDEO",
+     "links": [
+      35
+     ]
+    }
+   ],
+   "title": "Join · 7 parts + the sound",
+   "properties": {
+    "Node name for S&R": "ConcatenateVideo",
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2"
+   },
+   "widgets_values": [
+    "auto"
+   ],
+   "widgets_values_named": {
+    "codec": "auto"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#B8A56A"
+  },
+  {
+   "id": 31,
+   "type": "SaveVideo",
+   "pos": [
+    2660,
+    400
+   ],
+   "size": [
+    330,
+    154
+   ],
+   "flags": {},
+   "order": 30,
+   "mode": 0,
+   "inputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "link": 35
+    },
+    {
+     "localized_name": "filename_prefix",
+     "name": "filename_prefix",
+     "type": "STRING",
+     "widget": {
+      "name": "filename_prefix"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "format",
+     "name": "format",
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "format.codec",
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format.codec"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "encoding",
+     "name": "format.codec.encoding",
+     "shape": 7,
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "format.codec.encoding"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "crf",
+     "name": "format.codec.encoding.crf",
+     "type": "FLOAT",
+     "widget": {
+      "name": "format.codec.encoding.crf"
+     },
+     "link": null
+    },
+    {
+     "localized_name": "codec",
+     "name": "codec",
+     "shape": 7,
+     "type": "COMFY_DYNAMICCOMBO_V3",
+     "widget": {
+      "name": "codec"
+     },
+     "link": null
+    }
+   ],
+   "outputs": [
+    {
+     "localized_name": "video",
+     "name": "video",
+     "type": "VIDEO",
+     "links": null
+    }
+   ],
+   "title": "Save · 3780×2160",
+   "properties": {
+    "cnr_id": "comfy-core",
+    "ver": "0.39.2",
+    "Node name for S&R": "SaveVideo"
+   },
+   "widgets_values": [
+    "video/seedvr2_4k_joined",
+    "mp4",
+    "h264",
+    "re-encode",
+    14,
+    "auto"
+   ],
+   "widgets_values_named": {
+    "filename_prefix": "video/seedvr2_4k_joined",
+    "format": "mp4",
+    "format.codec": "h264",
+    "format.codec.encoding": "re-encode",
+    "format.codec.encoding.crf": 14,
+    "codec": "auto"
+   },
+   "color": "#2B2118",
+   "bgcolor": "#17141C",
+   "boxcolor": "#B8A56A"
+  },
+  {
+   "id": 32,
+   "type": "MarkdownNote",
+   "pos": [
+    2280,
+    760
+   ],
+   "size": [
+    760,
+    620
+   ],
+   "flags": {},
+   "order": 5,
+   "mode": 0,
+   "inputs": [],
+   "outputs": [],
+   "title": "How the pieces meet",
+   "properties": {},
+   "widgets_values": [
+    "**You pick:** the four pieces from `seedvr2_4k_one_piece.json`, and your render for its sound. Needs KJNodes.\n\n## Only the overlaps are blended\n\nThe long parts are cut from each piece; where two pieces overlap, the new piece fades in over the old one: 9 frames, 18 at the last piece (it ends on the last frame).\n\n| part | frames of the take |\n|---|---|\n| piece 1 | 0-47 |\n| blend 1 → 2 | 48-56 |\n| piece 2 | 57-95 |\n| blend 2 → 3 | 96-104 |\n| piece 3 | 105-134 |\n| blend 3 → 4 | 135-152 |\n| piece 4 | 153-191 |\n\nConcatenate Video works one frame at a time, so the join needs a few GB of RAM.\n\nEvery model link and folder: `LINKS.md`."
+   ],
+   "widgets_values_named": {
+    "text": "**You pick:** the four pieces from `seedvr2_4k_one_piece.json`, and your render for its sound. Needs KJNodes.\n\n## Only the overlaps are blended\n\nThe long parts are cut from each piece; where two pieces overlap, the new piece fades in over the old one: 9 frames, 18 at the last piece (it ends on the last frame).\n\n| part | frames of the take |\n|---|---|\n| piece 1 | 0-47 |\n| blend 1 → 2 | 48-56 |\n| piece 2 | 57-95 |\n| blend 2 → 3 | 96-104 |\n| piece 3 | 105-134 |\n| blend 3 → 4 | 135-152 |\n| piece 4 | 153-191 |\n\nConcatenate Video works one frame at a time, so the join needs a few GB of RAM.\n\nEvery model link and folder: `LINKS.md`."
+   },
+   "color": "#432",
+   "bgcolor": "#653"
+  }
+ ],
+ "links": [
+  [
+   1,
+   6,
+   0,
+   7,
+   0,
+   "VIDEO"
+  ],
+  [
+   2,
+   2,
+   0,
+   8,
+   0,
+   "VIDEO"
+  ],
+  [
+   3,
+   2,
+   0,
+   9,
+   0,
+   "VIDEO"
+  ],
+  [
+   4,
+   3,
+   0,
+   10,
+   0,
+   "VIDEO"
+  ],
+  [
+   5,
+   9,
+   0,
+   11,
+   0,
+   "VIDEO"
+  ],
+  [
+   6,
+   10,
+   0,
+   12,
+   0,
+   "VIDEO"
+  ],
+  [
+   7,
+   11,
+   0,
+   13,
+   0,
+   "IMAGE"
+  ],
+  [
+   8,
+   12,
+   0,
+   13,
+   1,
+   "IMAGE"
+  ],
+  [
+   9,
+   13,
+   2,
+   14,
+   0,
+   "IMAGE"
+  ],
+  [
+   10,
+   3,
+   0,
+   15,
+   0,
+   "VIDEO"
+  ],
+  [
+   11,
+   3,
+   0,
+   16,
+   0,
+   "VIDEO"
+  ],
+  [
+   12,
+   4,
+   0,
+   17,
+   0,
+   "VIDEO"
+  ],
+  [
+   13,
+   16,
+   0,
+   18,
+   0,
+   "VIDEO"
+  ],
+  [
+   14,
+   17,
+   0,
+   19,
+   0,
+   "VIDEO"
+  ],
+  [
+   15,
+   18,
+   0,
+   20,
+   0,
+   "IMAGE"
+  ],
+  [
+   16,
+   19,
+   0,
+   20,
+   1,
+   "IMAGE"
+  ],
+  [
+   17,
+   20,
+   2,
+   21,
+   0,
+   "IMAGE"
+  ],
+  [
+   18,
+   4,
+   0,
+   22,
+   0,
+   "VIDEO"
+  ],
+  [
+   19,
+   4,
+   0,
+   23,
+   0,
+   "VIDEO"
+  ],
+  [
+   20,
+   5,
+   0,
+   24,
+   0,
+   "VIDEO"
+  ],
+  [
+   21,
+   23,
+   0,
+   25,
+   0,
+   "VIDEO"
+  ],
+  [
+   22,
+   24,
+   0,
+   26,
+   0,
+   "VIDEO"
+  ],
+  [
+   23,
+   25,
+   0,
+   27,
+   0,
+   "IMAGE"
+  ],
+  [
+   24,
+   26,
+   0,
+   27,
+   1,
+   "IMAGE"
+  ],
+  [
+   25,
+   27,
+   2,
+   28,
+   0,
+   "IMAGE"
+  ],
+  [
+   26,
+   5,
+   0,
+   29,
+   0,
+   "VIDEO"
+  ],
+  [
+   35,
+   30,
+   0,
+   31,
+   0,
+   "VIDEO"
+  ],
+  [
+   27,
+   8,
+   0,
+   30,
+   0,
+   "VIDEO"
+  ],
+  [
+   28,
+   14,
+   0,
+   30,
+   1,
+   "VIDEO"
+  ],
+  [
+   29,
+   15,
+   0,
+   30,
+   2,
+   "VIDEO"
+  ],
+  [
+   30,
+   21,
+   0,
+   30,
+   3,
+   "VIDEO"
+  ],
+  [
+   31,
+   22,
+   0,
+   30,
+   4,
+   "VIDEO"
+  ],
+  [
+   32,
+   28,
+   0,
+   30,
+   5,
+   "VIDEO"
+  ],
+  [
+   34,
+   7,
+   1,
+   30,
+   6,
+   "AUDIO"
+  ],
+  [
+   33,
+   29,
+   0,
+   30,
+   8,
+   "VIDEO"
+  ]
+ ],
+ "groups": [
+  {
+   "id": 1,
+   "title": "1  THE FOUR PIECES",
+   "bounding": [
+    -30,
+    -20,
+    400,
+    1340
+   ],
+   "color": "#E39A2A",
+   "flags": {}
+  },
+  {
+   "id": 2,
+   "title": "2  CUT · the long parts",
+   "bounding": [
+    350,
+    -20,
+    390,
+    1340
+   ],
+   "color": "#E39A2A",
+   "flags": {}
+  },
+  {
+   "id": 3,
+   "title": "3  BLEND · only the overlaps",
+   "bounding": [
+    730,
+    -20,
+    1530,
+    1340
+   ],
+   "color": "#C9A227",
+   "flags": {}
+  },
+  {
+   "id": 4,
+   "title": "4  JOIN AND SAVE · the sound as one track",
+   "bounding": [
+    2250,
+    330,
+    820,
+    340
+   ],
+   "color": "#B8A56A",
+   "flags": {}
+  }
+ ],
+ "config": {},
+ "extra": {},
+ "version": 0.4
+}
