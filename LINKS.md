@@ -150,6 +150,18 @@ Node packs: [LTXVideo by Lightricks](https://github.com/Lightricks/ComfyUI-LTXVi
 | `loras` | [pika_h3_flex_ref2va_v1_bf16.safetensors](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/pika_h3_flex_ref2va_v1_bf16.safetensors) | 1.96 GB |  |
 | `loras` | [pika_h3_flex_fl2va_v1_bf16.safetensors](https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/loras/pika_h3_flex_fl2va_v1_bf16.safetensors) | 1.96 GB |  |
 
+### Pika Flex Turbo
+
+akhaliq's merge of the Pika H3 Flex adapter with a speed LoRA, hosted by Pika Labs.
+
+| folder under `ComfyUI/models/` | file | size | note |
+|---|---|---|---|
+| `loras` | [pika_h3_flex_turbo_2step_draft_ref2va.safetensors](https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA/resolve/main/pika_h3_flex_turbo_2step_draft_ref2va.safetensors) | 3.91 GB |  |
+| `loras` | [pika_h3_flex_turbo_4step_ref2va.safetensors](https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA/resolve/main/pika_h3_flex_turbo_4step_ref2va.safetensors) | 3.91 GB |  |
+| `loras` | [pika_h3_flex_turbo_8step_hd_ref2va.safetensors](https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA/resolve/main/pika_h3_flex_turbo_8step_hd_ref2va.safetensors) | 3.91 GB |  |
+| `loras` | [pika_h3_flex_turbo_4step_fl2va.safetensors](https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA/resolve/main/pika_h3_flex_turbo_4step_fl2va.safetensors) | 3.91 GB |  |
+| `loras` | [pika_h3_flex_turbo_8step_hd_fl2va.safetensors](https://huggingface.co/Pika-Labs/Pika-H3-Flex-Turbo-LoRA/resolve/main/pika_h3_flex_turbo_8step_hd_fl2va.safetensors) | 3.91 GB |  |
+
 ### VDN-H3, makers' recipe and Saganaki22's node
 
 Node packs: [ComfyUI-VDN-H3 by Saganaki22](https://github.com/Saganaki22/ComfyUI-VDN-H3)
